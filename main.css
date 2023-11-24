@@ -169,7 +169,7 @@ h3 {
   min-width: 17vw;
   margin-right: 10px;
   transition: 0.5s;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .card:hover {
