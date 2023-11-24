@@ -47,6 +47,10 @@ h3 {
   cursor: pointer;
 }
 
+.nav-manu:hover {
+  color: #B3B3B3;
+}
+
 .avatar-icon {
   width: 40px;
   border-radius: 3px;
@@ -180,25 +184,34 @@ h3 {
   margin: 20px auto 0;
   max-width: 980px;
 } 
+
 .footer-icon {
   color: #e5e5e5;
 }
+
 .footer-icon span {
   padding:30px 18px 5px 5px;
   box-sizing: border-box;
+  cursor: pointer;
 }
+
 .footer-list {
-  
   display: grid;
   grid-template-rows:repeat(3,1fr);
-  grid-template-columns:repeat(4,1fr) ;
-  
+  grid-template-columns:repeat(4,1fr);
 }
+
 .ft-list {
   color: #808080;
   font-size: 14px;
   padding: 10px 10px 10px 0;
+  cursor: pointer;
 }
+
+.ft-list:hover {
+  color: #B3B3B3;
+}
+
 .ft-text {
   color: #808080;
   font-size: 11px;
